@@ -133,8 +133,8 @@ def implementDeepModel(sentiment_train, sentiment_val, sentiment_test, wv_train,
     print('Test Set confusion matrix is: ')
     print(pd.crosstab(y_true, y_pred, rownames=['True'], colnames=['Predicted'], margins=True))
     
-    #pred_path = '/home/shubham/FinalProject/fnc/output_data/deepPred.pickle'
-    #pickle_out = open(pred_path,"wb")
-    #pickle.dump(testPred, pickle_out)
-    #pickle_out.close()
+#	pred_path = '/home/shubham/FinalProject/fnc/output_data/deepPred.pickle'
+#	pickle_out = open(pred_path,"wb")
+#	pickle.dump(testPred, pickle_out)
+#	pickle_out.close()
     
